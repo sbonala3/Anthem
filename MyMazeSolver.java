@@ -8,6 +8,11 @@ import java.util.ArrayList;
  * is located. Places marked with "#" are obstacles within the maze and should not
  * be visited.
  * 
+ * { " ", "#","#"," "}
+ * { " ", " "," ","#"}
+ * { " "," ", "#"," "}
+ * { " ", "E","#"," "}
+ * 
  * This program uses a breadth first search. It keeps of the places it has visited
  * in a queue of nodes. Each node has an x coordinate, y coordinate, and parent node reference.
  * It dequeues one element at a time from the queue and adds all of the neighbors of the parent
